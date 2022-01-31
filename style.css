@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10%;
+    background-color: #6C4099;
+}
+
+input {
+    border-radius: 18px;
+    font-size: 2rem;
+    padding-left: 15%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+main div {
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.city,
+.weather {
+    font-size: 2.5em;
+}
+
+.temp {
+    text-shadow: 2px 2px 8px white;
+    font-size: 5em;
+}
